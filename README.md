@@ -26,16 +26,20 @@ Aplikasi pencatatan keuangan **pribadi** untuk Android dan laptop. Data dimasukk
 | Notifikasi | flutter_local_notifications |
 | Widget Android | home_widget + Kotlin |
 
-Detail lengkap ada di [Architecture.md](Architecture.md).
+Detail teknis lengkap ada di dokumen perencanaan (lihat bagian Dokumentasi).
 
 ## Dokumentasi
 
+Dokumen perencanaan proyek disimpan di folder `planning/` pada komputer lokal dan **tidak disertakan di repositori ini** (masuk `.gitignore`):
+
 | Dokumen | Isi |
 |---------|-----|
-| [PRD.md](PRD.md) | Masalah yang diselesaikan, proses bisnis, kebutuhan produk |
-| [SYSTEM_DESIGN.md](SYSTEM_DESIGN.md) | Warna, tipografi, komponen UI, tata letak |
-| [Architecture.md](Architecture.md) | Teknologi, alur sistem, skema database |
-| [agent.md](agent.md) | Aturan kerja dan kode untuk AI coding agent |
+| `planning/PRD.md` | Masalah yang diselesaikan, proses bisnis, kebutuhan produk |
+| `planning/SYSTEM_DESIGN.md` | Warna, tipografi, komponen UI, tata letak |
+| `planning/Architecture.md` | Teknologi, alur sistem, skema database |
+| `planning/agent.md` | Aturan kerja dan kode untuk AI coding agent |
+
+Agent AI membaca [AGENTS.md](AGENTS.md) di root proyek, yang menunjuk ke dokumen-dokumen di atas.
 
 ## Prasyarat
 
@@ -96,7 +100,7 @@ flutter analyze      # analisis statis (harus bersih)
 flutter test         # jalankan test
 ```
 
-Aturan lengkap penulisan kode ada di [agent.md](agent.md).
+Aturan lengkap penulisan kode ada di `planning/agent.md`.
 
 ## Rencana Rilis
 
@@ -106,3 +110,6 @@ Aturan lengkap penulisan kode ada di [agent.md](agent.md).
 | v1.1 | Widget Android, riwayat dan filter |
 | v1.2 | Grafik kategori, ekspor CSV, kunci aplikasi |
 
+## Lisensi
+
+Dirilis di bawah [Lisensi MIT](LICENSE). Hak cipta © 2026 GreedLynx.
