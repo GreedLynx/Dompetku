@@ -1,5 +1,2 @@
 .env
-Agents.md
-Architecture.md
-PRD.md
-SYSTEM_DESIGN.md
+planning/*
