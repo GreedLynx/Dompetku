@@ -106,8 +106,3 @@ Aturan lengkap penulisan kode ada di [agent.md](agent.md).
 | v1.1 | Widget Android, riwayat dan filter |
 | v1.2 | Grafik kategori, ekspor CSV, kunci aplikasi |
 
-## Lisensi
-
-Proyek pribadi. Hak cipta © 2026 Ndibil. Seluruh hak dilindungi.
-
-Kode ini tidak dilisensikan untuk digunakan, disalin, atau didistribusikan pihak lain tanpa izin tertulis.
